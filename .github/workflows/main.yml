@@ -1,0 +1,10 @@
+name: CI
+on: psuh
+ jobs:
+   build:
+     runs-on: ubuntu-latest
+
+  steps:
+  - name: Chekout code
+    run: index.html
+    
